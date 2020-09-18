@@ -1210,12 +1210,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="Q4" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="Q6" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q7" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
 <part name="V7" library="supply2" deviceset="GND" device=""/>
 <part name="Q3" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="Q7" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q6" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
 <part name="V8" library="supply2" deviceset="GND" device=""/>
 <part name="Q2" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
 <part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
@@ -1258,7 +1258,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <instance part="P+2" gate="VCC" x="55.88" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="58.42" y="144.78" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="Q6" gate="Q" x="91.44" y="124.46" smashed="yes" rot="MR0">
+<instance part="Q7" gate="Q" x="91.44" y="124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="88.9" y="123.19" size="1.778" layer="95" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="88.9" y="120.65" size="1.27" layer="96" ratio="10" rot="MR0"/>
 </instance>
@@ -1274,7 +1274,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <instance part="P+7" gate="VCC" x="91.44" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="93.98" y="144.78" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="Q7" gate="Q" x="129.54" y="124.46" smashed="yes" rot="MR0">
+<instance part="Q6" gate="Q" x="129.54" y="124.46" smashed="yes" rot="MR0">
 <attribute name="NAME" x="127" y="123.19" size="1.778" layer="95" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="127" y="120.65" size="1.27" layer="96" ratio="10" rot="MR0"/>
 </instance>
@@ -1326,7 +1326,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <junction x="55.88" y="119.38"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="Q" pin="S"/>
+<pinref part="Q7" gate="Q" pin="S"/>
 <pinref part="V7" gate="GND" pin="GND"/>
 <pinref part="Q3" gate="Q" pin="S"/>
 <wire x1="81.28" y1="124.46" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
@@ -1334,7 +1334,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <junction x="91.44" y="119.38"/>
 </segment>
 <segment>
-<pinref part="Q7" gate="Q" pin="S"/>
+<pinref part="Q6" gate="Q" pin="S"/>
 <pinref part="V8" gate="GND" pin="GND"/>
 <pinref part="Q2" gate="Q" pin="S"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
@@ -1395,7 +1395,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <segment>
 <wire x1="99.06" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <label x="99.06" y="124.46" size="1.016" layer="95" xref="yes"/>
-<pinref part="Q6" gate="Q" pin="G"/>
+<pinref part="Q7" gate="Q" pin="G"/>
 </segment>
 </net>
 <net name="P3" class="2">
@@ -1407,7 +1407,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <segment>
 <wire x1="137.16" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 <label x="137.16" y="124.46" size="1.016" layer="95" xref="yes"/>
-<pinref part="Q7" gate="Q" pin="G"/>
+<pinref part="Q6" gate="Q" pin="G"/>
 </segment>
 </net>
 <net name="P4" class="2">
@@ -1481,7 +1481,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="Q6" gate="Q" pin="D"/>
+<pinref part="Q7" gate="Q" pin="D"/>
 <pinref part="R3" gate="R" pin="1"/>
 <wire x1="91.44" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
 <junction x="91.44" y="129.54"/>
@@ -1490,7 +1490,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="Q7" gate="Q" pin="D"/>
+<pinref part="Q6" gate="Q" pin="D"/>
 <pinref part="R2" gate="R" pin="1"/>
 <wire x1="129.54" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 <junction x="129.54" y="129.54"/>
