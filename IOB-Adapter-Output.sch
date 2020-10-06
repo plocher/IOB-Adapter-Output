@@ -1205,24 +1205,24 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="JP1" library="SPCoast" deviceset="CONNECTOR-M05X2" device="" value="CONNECTOR-M05X2"/>
-<part name="Q8" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q8" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
-<part name="Q4" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q4" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="Q7" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q7" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="V7" library="supply2" deviceset="GND" device=""/>
-<part name="Q3" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q3" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="Q6" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q6" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="V8" library="supply2" deviceset="GND" device=""/>
-<part name="Q2" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q2" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
-<part name="Q5" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q5" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="V9" library="supply2" deviceset="GND" device=""/>
-<part name="Q1" library="SPCoast" deviceset="MOSFET-P" device="" value="MOSFET-N"/>
+<part name="Q1" library="SPCoast" deviceset="MOSFET-P" device="" value="N-FET"/>
 <part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="10k"/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 </parts>
